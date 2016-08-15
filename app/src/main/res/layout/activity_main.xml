@@ -9,8 +9,148 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.administrator.crzay_android.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/Main_Background"
+        >
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_FirstChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_SecondChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_ThreeChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_FourChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_FiveChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_SixChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+         </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_SevenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_EightChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_NineChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_TenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_ElevenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_TwelveChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_NineteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_ThirteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_FourteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_FifteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_SixteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_SeventeenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+            <android.support.v7.widget.LinearLayoutCompat
+                style="@style/Main_Layout">
+                <TextView
+                    style="@style/Main_Text"
+                    android:text="@string/Main_EighteenChapter" />
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
 </RelativeLayout>

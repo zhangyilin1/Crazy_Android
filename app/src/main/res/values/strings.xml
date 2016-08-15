@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Crzay_Android</string>
+    <string name="Main_FirstChapter">第一章</string>
+    <string name="Main_SecondChapter">第二章</string>
+    <string name="Main_ThreeChapter">第三章</string>
+    <string name="Main_FourChapter">第四章</string>
+    <string name="Main_FiveChapter">第五章</string>
+    <string name="Main_SixChapter">第六章</string>
+    <string name="Main_SevenChapter">第七章</string>
+    <string name="Main_EightChapter">第八章</string>
+    <string name="Main_NineChapter">第九章</string>
+    <string name="Main_TenChapter">第十章</string>
+    <string name="Main_ElevenChapter">第十一章</string>
+    <string name="Main_TwelveChapter">第十二章</string>
+    <string name="Main_ThirteenChapter">第十三章</string>
+    <string name="Main_FourteenChapter">第十四章</string>
+    <string name="Main_FifteenChapter">第十五章</string>
+    <string name="Main_SixteenChapter">第十六章</string>
+    <string name="Main_SeventeenChapter">第十七章</string>
+    <string name="Main_EighteenChapter">第十八章</string>
+    <string name="Main_NineteenChapter">第十九章</string>
+
 </resources>
